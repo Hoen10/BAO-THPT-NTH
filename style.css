@@ -1,0 +1,122 @@
+/*Toàn bộ trang*/
+body {
+    font-family: 'Lora', serif;  /* hoặc Roboto */
+    background-color: #ffffff;   /* nền trắng ngà */
+    color: #000000;                 /* chữ đem đậm */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #009dff; /* đen */
+    color: #ffffff;               /* chữ trắng */
+    text-align: center;
+    padding: 25px;
+}
+
+/* Footer */
+footer {
+    background-color: #009dff;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #000000; /* trắng tinh */
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Ảnh */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Video */
+video, iframe {
+  display: block;
+  margin: 15px auto;
+  max-width: 90%;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+/* Video container để responsive */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Giới hạn video không vượt quá 800px */
+    margin: 20px auto; /* Căn giữa */
+}
+
+.video-container video {
+    width: 100%;   /* Chiếm toàn bộ chiều rộng container */
+    height: auto;  /* Tự động chỉnh chiều cao */
+    border-radius: 12px; /* Bo góc video */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3); /* Đổ bóng mềm */
+}
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* cắt cho video tràn khung */
+}
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* cắt cho video tràn khung */
+}
+.my-image {
+  width: 500px;   /* chỉnh độ rộng */
+  height: auto;   /* tự động giữ tỉ lệ */
+  border-radius: 10px; /* bo góc cho đẹp */
+  display: block;
+  margin: 20px auto; /* căn giữa */
+}
+img {
+  display: block;       /* biến ảnh thành block để căn giữa */
+  margin: 20px auto;    /* auto -> tự động căn giữa */
+  max-width: 80%;       /* cho ảnh không bị to quá */
+  height: auto;         /* giữ tỉ lệ ảnh */
+}
